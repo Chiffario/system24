@@ -15,14 +15,14 @@
 /* @import url('https://raw.githubusercontent.com/Chiffario/system24/refs/heads/main/src/unrounding.css'); */ 
 /* customize things here */
 :root {
-	--font: "JetBrainsMono Nerd Font"; /* UI font name. it must be installed on your system. */
+	--font: "JetBrainsMono NF"; /* UI font name. it must be installed on your system. */
 	letter-spacing: -0.05ch; /* decreases letter spacing for better readability. */
 	font-weight: 300; /* UI font weight. */
 	--label-font-weight: 500; /* font weight for panel labels. */
 	--corner-text: "chiffa :3"; /* custom text to display in the corner. only works on windows. */
-	--pad: 16px; /* padding between panels. */
+	--pad: 10px; /* padding between panels. */
 	--txt-pad: 10px; /* padding inside panels to prevent labels from clipping */
-	--panel-roundness: 0px; /* corner roundness of panels. ONLY WORKS IF unrounding.css IS REMOVED (see above). */
+	--panel-roundness: 5px; /* corner roundness of panels. ONLY WORKS IF unrounding.css IS REMOVED (see above). */
 
 	/* background colors */
 	--bg-0: #24273a; /* main background color. */
@@ -52,7 +52,7 @@
 	--border-width: 2px; /* panel border thickness. */
 	--border-color: var(--bg-2); /* panel border color. */
 	--border-hover-color: var(--acc-0); /* panel border color when hovered. */
-	--border-transition: 0.2s ease; /* panel border transition. */
+	--border-transition: 0.1s ease; /* panel border transition. */
 
 	/* status dot colors */
 	--online-dot: var(--cyan); /* color of online dot. */
